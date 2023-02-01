@@ -6,7 +6,7 @@ for (let articulo of productos_hombre) {
     if (articulo.nuevo == true) {
         let producto = document.createElement("article");
         producto.className = `card col-5 col-md-2 m-2 m-md-0`
-        producto.innerHTML = `<img src="/img/${articulo.img1}" class="card-img-top" alt="...">
+        producto.innerHTML = `<img src="img/${articulo.img1}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">${articulo.precio}</h5>
           <p class="card-text fs-5">${articulo.nombre}</p>
@@ -20,7 +20,7 @@ for (let articulo of productos_mujer) {
     if (articulo.nuevo == true) {
         let producto = document.createElement("article");
         producto.className = `card col-5 col-md-2 m-2 m-md-0`
-        producto.innerHTML = `<img src="/img/${articulo.img1}" class="card-img-top" alt="...">
+        producto.innerHTML = `<img src="img/${articulo.img1}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">${articulo.precio}</h5>
           <p class="card-text fs-5">${articulo.nombre}</p>
@@ -58,7 +58,7 @@ for (let articulo of productos_mujer) {
         let producto = document.createElement("article")
         producto.id = `${articulo.id}`
         producto.className = `col-10 col-md-5 my-4 p-0 articulos_ofertas ${articulo.id}`;
-        producto.innerHTML = `<img src="/img/${articulo.img1}"  width="100%" alt="">
+        producto.innerHTML = `<img src="img/${articulo.img1}"  width="100%" alt="">
         <h5 class="card-title">${articulo.precio} ARS</h5>
         <p class="card-text">${articulo.nombre}</p>  
         <a href="" class="btn btn-dark">Ir a Comprar</a>`;
