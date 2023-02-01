@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/prenda.css">
+    <title>Bootstrap demo</title>
+  </head>
+  <body>
+    <header id="header">
+        <nav class="navbar navbar-expand-md bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/index.html">Elegant</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link link-dark" href="/index.html">Inicio</a>
+                  <a class="nav-link link-dark" href="hombre.html">Hombre</a>
+                  <a class="nav-link link-dark" href="mujer.html">Mujer</a>
+                  <a class="nav-link link-dark" href="nosotros.html">Nosotros</a>
+                  <a class="nav-link link-dark" href="contactanos.html">Contáctanos</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main id="tipo_prenda" class="text-center">
+      <br>
+      <div class="container-fluid">
+        <div class="row d-flex align-items-center">
+          <hr class="col" width="10%">
+          <div class="col-10 col-sm-6">
+            <h1 class="display-6">
+              Elegí lo que buscás
+              <br>
+              <p class="fs-4">Seccion >> Hombre</p>
+            </h1>
+          </div>
+          <hr class="col" width="10%">
+        </div>
+      </div>
+      <br>
+      <div class="container lead fs-1">
+        <div id="contenedor_articulos" class="row d-flex justify-content-md-between">
+          <article class="col-6 col-md-5 my-4">
+            <a href="prenda_hombre/chaqueta_hombre.html">
+              <img src="/img/chaqueta.png" width="100%" alt="">
+              <p>Chaqueta</p>
+            </a>
+          </article>
+          <article class="col-6 col-md-5 my-4">
+            <a href="prenda_hombre/camisa_hombre.html">
+              <img src="/img/camisa.png" width="100%" alt="">
+              <p>Camisa</p>
+            </a>
+          </article>
+          <article class="col-6 col-md-5 my-4">
+            <a href="prenda_hombre/pantalon_hombre.html">
+              <img src="/img/pantalon.png" width="100%" alt="">
+              <p>Pantalon</p>
+            </a>
+          </article>
+          <article class="col-6 col-md-5 my-4">
+            <a href="prenda_hombre/traje_hombre.html">
+              <img src="/img/traje.png" width="100%" alt="">
+              <p>Traje</p>
+            </a>
+          </article>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+    </main>
+    <footer id="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-6 my-2">
+            <h5 class="display-6 text-center">Secciones</h5>
+            <div class="d-flex flex-row flex-sm-column justify-content-evenly align-items-center justify-content-md-start">
+              <a href="#" class="footer_link text-decoration-none link-dark lead my-md-1 fs-6">Home</a>
+              <a href="#" class="footer_link text-decoration-none link-dark lead my-md-1 fs-6">Hombre</a>
+              <a href="#" class="footer_link text-decoration-none link-dark lead my-md-1 fs-6">Mujer</a>
+              <a href="#" class="footer_link text-decoration-none link-dark lead my-md-1 fs-6">Nosotros</a>
+              <a href="#" class="footer_link text-decoration-none link-dark lead my-md-1 fs-6">Contáctanos</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 my-2">
+            <form class="row g-3">
+              <div class="col-12">
+                <h5 class="display-6 text-center text-md-start">Registrarse</h5>
+                <p class="lead text-secondary">Ingrese su email para recibir notificaciones acerca de nuestras ofertas para ahorrar más en sus próximas compras.</p>
+              </div>
+              <div class="col-12">
+                <label for="registrarEmail" class="visually-hidden">Email</label>
+                <input type="email" class="form-control" id="registrarEmail" placeholder="Email">
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary mb-3">Recibir Notificaciones</button>
+              </div>
+            </form>
+          </div>
+        </div>      
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
