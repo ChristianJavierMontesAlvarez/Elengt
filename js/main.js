@@ -42,7 +42,7 @@ for (let articulo of productos_hombre) {
         let producto = document.createElement("article");
         producto.id = `${articulo.id}`
         producto.className = `col-10 col-md-5 my-4 p-0 articulos_ofertas`;
-        producto.innerHTML = `<img src="/tree/main/img/${articulo.img1}" width="100%" alt="">
+        producto.innerHTML = `<img src="img/${articulo.img1}" width="100%" alt="">
         <h5 class="card-title">${articulo.precio} ARS</h5>
         <p class="card-text">${articulo.nombre}</p>  
         <a href="" class="btn btn-dark">Ir a Comprar</a>`;
