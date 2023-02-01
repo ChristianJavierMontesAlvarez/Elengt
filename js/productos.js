@@ -17,3 +17,4 @@ const productos_mujer = [
     {id: 11, nombre: "Camisa Roja Formal", color: "rojo", tipo: "camisa", genero: "femenino", descripción: "Camisa formal excelente para el verano", precio: 4500, img1: "chaqueta_blanco_mujer.png", img2: "none", ofertas: false, nuevo: true, s: 10, m: 10, l: 5},
     {id: 12, nombre: "Pantalon Mujer Negro", color: "negro", tipo: "pantalon", genero: "femenino", descripción: "Pantalon negro para mujer elegante", precio: 5500, img1: "pantalon_mujer_negro.png", img2: "none", ofertas: false, nuevo: true, s: 10, m: 10, l: 5}
 ];
+
