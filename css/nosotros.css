@@ -38,7 +38,7 @@ html {
     }
 
     #nosotros_1 {
-        background-image:  url(../img/nosotros_2.jpg);
+        background-image:  url(/img/nosotros_2.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -94,7 +94,7 @@ html {
     }
 
     #nosotros_1 {
-        background: linear-gradient(rgba(255, 255, 255, 0.313), rgba(183, 183, 183, 0)) ,url("/img/nosotros.jpg"), center center no-repeat;
+        background: linear-gradient(rgba(255, 255, 255, 0.313), rgba(183, 183, 183, 0)) ,url(/img/nosotros.jpg), center center no-repeat;
         background-size: cover;
         height: 40vh;
     }
@@ -157,7 +157,7 @@ html {
     }
 
     #nosotros_1 {
-        background: linear-gradient(rgba(255, 255, 255, 0.313), rgba(183, 183, 183, 0)) ,url("/img/nosotros.jpg"), center center no-repeat;
+        background: linear-gradient(rgba(255, 255, 255, 0.313), rgba(183, 183, 183, 0)) ,url(/img/nosotros.jpg), center center no-repeat;
         background-size: cover;
         height: 40vh;
     }
