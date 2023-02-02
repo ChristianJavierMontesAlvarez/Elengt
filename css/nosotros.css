@@ -38,7 +38,7 @@ html {
     }
 
     #nosotros_1 {
-        background-image:  url(https://christianjaviermontesalvarez.github.io/Elengt/img/nosotros_2.jpg);
+        background-image:  url(/img/nosotros_2.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -94,7 +94,7 @@ html {
     }
 
     #nosotros_1 {
-        background-image: url(https://christianjaviermontesalvarez.github.io/Elengt/img/nosotros.jpg);
+        background-image: url(/img/nosotros.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -159,7 +159,7 @@ html {
     }
 
     #nosotros_1 {
-        background-image: url(https://christianjaviermontesalvarez.github.io/Elengt/img/nosotros.jpg);
+        background-image: url(/img/nosotros.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
